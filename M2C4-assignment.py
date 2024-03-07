@@ -29,7 +29,8 @@ my_dictionary = {
 
 # Exercise 2
 
-round_float = round(my_float)
+round_float = math.ceil(my_float)
+print(round_float)
 
 # Exercise 3
 root = math.sqrt(my_float)
